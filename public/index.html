@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ticket</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="main__body">
+			<div class="main-body__text">
+				<span>Включите полноэкранный режим</span>
+			</div>
+			<div class="main-body__button">
+				<button onclick="toggleFullScreen()">Полноэкранный режим</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="wrapper__top">
+				<div class="wrapper-top__current-time" id="time">${info.time}</div>
+				<div class="wrapper-top__series">${info.series}</div>
+				<div class="wrapper-top__wagon">№${info.wagon}</div>
+				<div class="wrapper-top__body">
+					<div class="wrapper-top__date">${info.date}</div>
+					<div class="wrapper-top__time">${info.currentTime}</div>
+					<div class="wrapper-top__count">${info.count} шт.</div>
+				</div>
+				<div class="wrapper-top__timer" id="timer">${info.timer}</div>
+			</div>
+			<div class="wrapper__bottom"></div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
