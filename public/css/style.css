@@ -76,6 +76,16 @@ html, body {
 	top: 35%;
 	left: 40%;
 }
+.wrapper-top__price {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	color: #023E56;
+	top: 53.758%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: clamp(1.4375rem, -0.0099rem + 7.2368vw, 4.875rem);
+	font-weight: 600;
+}
 .wrapper-top__wagon {
 	position: absolute;
 	font-family: 'Roboto', sans-serif;
